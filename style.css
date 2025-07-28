@@ -220,95 +220,7 @@ nav ul li a:hover{
     font-size: 0.9rem;
   }
 }
-/*///////////////////*
-.main-section {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding-left: 10%;
-  position: relative;
-  background-image: url(./تصميم\ بدون\ عنوان.png);
-  background-size: cover;
-  color: white;
-  overflow: hidden;
-}
-.main-section h1{
-    font-size: 3rem;
-    color: #a75d3a;
-}
-.about-section p{
-    font-size: 1rem;
-    line-height: 2px;
-}
-.overlay {
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background-color: rgb(7, 22, 40);
-  opacity: 0.7;
-  z-index: 1;
-}
-
-.text-slider {
-  position: relative;
-  z-index: 2;
-  max-width: 700px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.animated-item {
-  opacity: 0;
-  transform: translateX(-50px);
-  animation: fadeInLeft 1s ease-out forwards;
-}
-
-.delay-1 {
-  animation-delay: 0.2s;
-}
-.delay-2 {
-  animation-delay: 0.8s;
-}
-.delay-3 {
-  animation-delay: 1.4s;
-}
-
-@keyframes fadeInLeft {
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-
-.contact-btn {
-  background: transparent;
-  color: white;
-  padding: 10px 25px;
-  border: 1px solid white;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background 0.3s;
-  width: fit-content;
-}
-
-.contact-btn:hover {
-  background: rgba(255, 255, 255, 0.2);
-}
-@media (max-width:600px) {
-    .main-section{
-        height: 50vh;
-    }
-    .main-section h1{
-      font-size: 2rem;
-    }
-    .main-section p{
-      font-size: 1rem;
-      width: 70%;
-    }
-}
-/******************888/////////////////*/
+/*////*/
 .section {
   min-height: 5s0vh;
   display: flex;
@@ -558,7 +470,7 @@ img {
 
 .icon-link {
   font-size: 22px;
-  color: #ffffff; /* اللون الأساسي */
+  color: #ffffff; /* 
   transition: color 0.3s;
 }
 
@@ -608,6 +520,8 @@ img {
         padding-top: 20px;
         margin-top: 30px;
     }
+    .contact-info p a{
+color:red
 }
 
 
