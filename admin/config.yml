@@ -1,13 +1,14 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: maria9956/ARSHiL
   branch: main
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
 collections:
-  - name: "content"
-    label: "محتوى الموقع"
+  - name: "home"
+    label: "الصفحة الرئيسية"
     files:
       - label: "الصفحة الرئيسية"
         name: "homepage"
@@ -15,3 +16,4 @@ collections:
         fields:
           - { label: "العنوان", name: "title", widget: "string" }
           - { label: "الوصف", name: "description", widget: "text" }
+
